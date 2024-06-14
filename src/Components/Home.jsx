@@ -1,4 +1,5 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom';
 import "../Components/Home.css"
 import hero from '../Assets/self.png'
 // import { FaHtml5 } from "react-icons/fa";
@@ -6,7 +7,13 @@ import { FaSquareGithub } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { ReactTyped as Typed} from "react-typed";
 
+
 const Home = () => {
+  const navigate = useNavigate();
+
+  const handleKnowMoreClick = () => {
+    navigate('/about');
+  };
   return (
     <section className='hero'>
         <div className='flex flex-col md:flex-row md:justify-evenly items-center m-[5%] leading-10'>
@@ -33,7 +40,8 @@ const Home = () => {
               <a href="https://www.linkedin.com/in/shrishti-jain21/"><span  className='text-3xl hover:text-[#D6B69B]'><FaLinkedin /></span></a>
               </div>
            </div>
-          <input type="button" value="Know More"  className='border-2 font-bold border-2 text-white hover:bg-[#D6B69B] hover:text-black w-[25%] transition hover:bg-black hover:text-white hover:ease-in-out duration-500'/>
+        
+          <input type="button" value="Know More"   onClick={handleKnowMoreClick}  className='border-2 font-bold border-2 text-white hover:bg-[#D6B69B] hover:text-black w-[25%] transition hover:bg-black hover:text-white hover:ease-in-out duration-500'/>   
             </div>
         </div>
     </section>
