@@ -1,0 +1,22 @@
+.hero_img{
+
+    /* background:url(../Assets/self.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left ;
+    mask-image: url(../Assets/blob.png);
+    mask-size: cover;
+    mask-repeat: no-repeat; */
+    box-shadow: 1px 3px 20px 0px #D6B69B;
+    border: 1px solid #D6B69B;
+    height: 300px;
+    justify-content:center;
+    align-items: center;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    display: flex;
+    width: 300px;
+    border-radius:50%;
+    /* border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;  */
+}

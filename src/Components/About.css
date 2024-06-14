@@ -1,0 +1,37 @@
+.education-details {
+    padding: 20px 0;
+}
+
+.education.and.exp li {
+    position: relative;
+    padding: 0 20px 0 60px;
+    margin: 0 0 50px;
+}
+
+.education.and.exp li .icon {
+    background: #f3eeee;
+    width: 40px;
+    height: 40px;
+    color: #0c0000;
+    position: absolute;
+    left: 0;
+    text-align: center;
+    right: 0;
+    z-index: 1;
+    border-radius: 50%;
+    line-height: 40px;
+}
+
+.education.and.exp li .icon i {
+    display: inline-block;
+}
+
+.education.and.exp li :after {
+    top: 0;
+    border-left: 2px solid rgba(255, 255, 255, .168627451);
+    left: 20px;
+    content: "";
+    position: absolute;
+    bottom: 0;
+    z-index: 0;
+}
