@@ -26,14 +26,14 @@ const Contact = () => {
            </div>
         </div>
         <div className='md:w-[50%]'>
-          <form className='leading-12' action='Contact.php' method='post'>
+          <form className='leading-12'  >
             <input type="text" name="name" id="" placeholder='Name' className=' p-1 w-full my-2 border-2 bg-transparent hover:border-[#D6B69B] focus:border-[#D6B69B] outline-0' />
             <input type="email" name="email" id="" placeholder='Email Address' className='p-1 w-full my-2 border-2 bg-transparent hover:border-[#D6B69B] focus:border-[#D6B69B] outline-0'/>
             <textarea name="message" id="" placeholder='Message' className='w-[100%] p-1 my-2 border-2 bg-transparent hover:border-[#D6B69B] focus:border-[#D6B69B] outline-0' ></textarea>
-            <input type="submit" className='w-[100%] p-1 transition hover:ease-in-out duration-500 hover:text-[#D6B69B] focus:border-[#D6B69B] bg-black  hover:bg-transparent hover:border-2 hover:border-[#D6B69B] outline-0'  />
+            <input type="submit" onClick={()=>alert("Thank You for Conatcting me !!")} className='w-[100%] p-1 transition hover:ease-in-out duration-500 hover:text-[#D6B69B] focus:border-[#D6B69B] bg-black  hover:bg-transparent hover:border-2 hover:border-[#D6B69B] outline-0'  />
           </form>
         </div>
-      </div>
+      </div> 
     </section>
   )
 }

@@ -22,14 +22,14 @@ const Home = () => {
               <img src={hero} alt="" className='top-0 absolute'/>
             </div>
             <div className='hero_txt flex md:w-[60%] flex-col text-justify w-full text-pink-100'>
-            <h1 className='hero-title text-4xl text-[#D6B69B] font-bold'>
-               -Hi , I'm <span className="title">
+            <h1 className='hero-title text-4xl text-[#D6B69B] font-bold xl:text-5xl md:text-2xl text-[21px]'>
+               -Hi ,I'm <span className="title">
                 <Typed strings={["Shrishti Jain","Frontend Developer"] }
                 typeSpeed={100} 
                 backSpeed={100} 
                 loop/>
                 </span></h1>
-            <p className='p-2'>
+            <p className='p-2 text-[14px] md:text-[20px] xl:text-[25px]'>
 
             As a recent graduate, I'm deeply passionate about web development and committed to continuously learning and improving my skills. I have a strong desire to stay updated with the latest technologies and industry trends.
             </p>
@@ -41,7 +41,7 @@ const Home = () => {
               </div>
            </div>
         
-          <input type="button" value="Know More"   onClick={handleKnowMoreClick}  className='border-2 font-bold border-2 text-white hover:bg-[#D6B69B] hover:text-black w-[25%] transition hover:bg-black hover:text-white hover:ease-in-out duration-500'/>   
+          <input type="button" value="Know More"   onClick={handleKnowMoreClick}  className='border-2 font-bold border-2 text-white hover:bg-[#D6B69B] hover:text-black w-[25%] transition hover:bg-black hover:text-white hover:ease-in-out duration-500 w-[50%] md:w-[25%]'/>   
             </div>
         </div>
     </section>
