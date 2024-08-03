@@ -25,6 +25,26 @@
         "image":"https://shrishtiportfolio.vercel.app/",
         "github":"https://github.com/shrishti2101/portfolio",
         "url":"https://shrishtiportfolio.vercel.app/"
+    },
+    {
+        "id":4,
+         "name":"Weather App",
+         "skills":["HTML" ,"CSS","React JS","API"],
+         "description":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id ducimus iureea quasi expedita maiores aliquid dolores eum enim sit porro, ullam place",
+         "image":"https://weather-app-blue.vercel.app/",
+         "github":"https://github.com/shrishti2101/weather-app",
+         "url":"https://weather-app-blue.vercel.app/"
+        
+    },
+    {
+        "id":5,
+        "name":"Finance Niti",
+        "skills":["HTML" ,"CSS","React JS","JSON server"],
+        "description":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id ducimus iure",
+        "image":"https://finance-niti.vercel.app/",
+        "github":"https://github.com/shrishti2101/fininace-niti",
+        "url":"https://finance-niti.vercel.app/"
+
     }
 ]
 

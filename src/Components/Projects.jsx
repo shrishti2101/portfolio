@@ -4,9 +4,9 @@ import { FaCode,FaGlobe } from "react-icons/fa";
 
 const Projects = () => {
   return (
-   <section className='text-center'>
+   <section className='text-center flex flex-col  justify-center items-center'>
         <h1 className='text-3xl text-[#D6B69B] font-bold'>Projects</h1>
-         <div className="project-container flex  flex-wrap items-center md:flex-row flex-col justify-around my-5 gap-y-5">
+         <div className="project-container  gap-4 grid grid-cols-3">
          { Data.map((project)=>(       
          <div className="project-card flex relative items-center w-[300px] h-[300px] shadow-[10px_10px_68px_25px_rgba(112,112,80,0.3)]" key={project.id}>
          <div className="project-img h-[100%] w-[100%]">
