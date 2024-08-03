@@ -10,7 +10,7 @@ const Projects = () => {
          { Data.map((project)=>(       
          <div className="project-card flex relative items-center w-[300px] h-[300px] shadow-[10px_10px_68px_25px_rgba(112,112,80,0.3)]" key={project.id}>
          <div className="project-img h-[100%] w-[100%]">
-         <iframe src={project.image} height="100%" width="100%" scrolling="no"></iframe>
+         <iframe src={project.image} height="100%" width="100%" title={project.id} scrolling='no'></iframe>
          </div>
            
          <div className="project-details absolute flex  flex-col items-center opacity-0 h-[100%] w-[100%]  text-xl hover:opacity-100  hover:bg-gradient-to-t from-transparent to-black hover:text-white  p-5">
