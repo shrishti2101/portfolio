@@ -10,6 +10,15 @@
     },
     {
         " id":2,
+         "name":"E-commerce Website",
+         "skills":["HTML" ,"CSS","Bootstrap"],
+         "description":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id ducimus iure",
+         "image":"https://shrishti2101.github.io/prixima-opal",
+         "github":"https://github.com/shrishti2101/prixima-opal",
+         "url":"https://prixima-opal.vercel.app/"
+    },
+    {
+        " id":3,
         "name":"To-Do List",
         "skills":["HTML" ,"CSS","Bootstrap","Javascript"],
         "description":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id ducimus iure ea quasi expedita maiores aliquid dolores eum enim sit porro, ullam placeat ex voluptatibus ipsum cum dolore, facere iusto.",
@@ -17,8 +26,9 @@
         "github":"https://github.com/shrishti2101/tasky",
         "url":"https://tasky-blue.vercel.app/"
     },
+
     {
-        "id":3,
+        "id":4,
         "name":"Protfolio",
         "skills":["HTML" ,"CSS","React JS"],
         "description":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id ducimus iure ea quasi expedita maiores aliquid dolores eum enim sit porro, ullam placeat ex voluptatibus ipsum cum dolore, facere iusto.",
@@ -27,7 +37,7 @@
         "url":"https://shrishtiportfolio.vercel.app/"
     },
     {
-        "id":4,
+        "id":5,
         "name":"Finance Niti",
         "skills":["HTML" ,"CSS","React JS","JSON server"],
         "description":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id ducimus iure",
